@@ -1,0 +1,287 @@
+<! DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</Form></title>
+    <style>
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color:blanchedalmond;
+            margin: 0;
+        }
+        h2{
+           background-color:burlywood;
+           text-align: left;
+           padding: 10px;
+           color: antiquewhite;
+        }
+        td{
+            padding: 8px;
+        }
+        .button{
+            background-color:burlywood;
+            color:black;
+            font-size: 18px;
+            padding: 0px 25 px;
+            border: none;
+            margin-bottom: 30px;
+        }
+        .button:hover{
+            cursor: pointer
+            box-shadow: 5px 5px 5px red;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center"> Job Application Form </h1>
+    <form>
+        <div class="account details">
+            <h2>Account</h2>
+            <table width="100%">
+                <tr>
+                    <td>Email : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>Password : </td>
+                    <td>
+                        <input type="password" name="pwd">
+                    </td>
+                    <td>Repeat Password : </td>
+                    <td>
+                        <input type="password" name="pwd">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="personal information">
+            <h2>Personal Information:</h2>
+            <table width="100%">   
+                <tr>
+                    <td>First Name : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>Middle Name : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>Last Name : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>     
+                </tr>
+                <tr>
+                    <td>Gender : </td>
+                    <td colspan="2">
+                        <input type="radio" name="gender" value="Male">Male
+                    </td>
+                    <td colspan="2">
+                        <input type="radio" name="gender" value="Female">Female
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="Other">Other
+                    </td>
+                </tr>              
+                <tr>
+                    <td>Date of Birthday : </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                    <td>Nationality : </td>
+                    <td>
+                        <select>
+                            <option>China</option>
+                            <option>United States</option>
+                            <option>United Kingdom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone Numbers : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>     
+                    <td>Mobile Numbers : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>Email Address : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>                
+                <tr>
+                    <td>Mailing Address (Domestic): </td>
+                    <td>
+                        <textarea rows="5" cols="25"></textarea>
+                    </td>    
+                    <td>Mailing Address (National) : </td>
+                    <td>
+                        <textarea rows="5" cols="25"></textarea>
+                    </td>      
+                </tr>
+                <tr>
+                    <td>Street Adress :  </td>
+                    <td>
+                    <textarea rows="5" cols="25"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>City :  </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>State :  </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country :  </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>ZIP Code : </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Languages Known</td>
+                    <td colspan="2">
+                        <input type="checkbox" value="Chinese">Chinese
+                    </td>
+                    <td colspan="2">
+                        <input type="checkbox" value="English">English
+                    </td>
+                    <td>
+                        <input type="checkbox" value="Spanish">Spanish
+                    </td>
+                </tr>
+                <tr>
+                    <td>About Yourself : </td>
+                    <td colspan="3">
+                        <textarea rows="5" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Educational Experience">
+            <h2>Educational Experience</h2>
+            <table width="100%">
+                <tr>
+                    <td>No.</td>
+                    <td>Degree</td>
+                    <td>University</td>
+                    <td>Major</td>
+                    <td>Start-End Date</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <input type="text" size="25>"
+                    </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <input type="text" size="25>"
+                    </td>
+                    <td>
+                        <input type="text" size="25">                      
+                    </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                    <td>
+                        <input type="text" size="25">                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <input type="text" size="25>"
+                    </td>                        
+                    <td>
+                       <input type="text" size="25">
+                    </td>                            
+                    <td>
+                       <input type="text" size="25">
+                    </td>
+                    <td>
+                        <input type="text" size="25">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Availability">
+            <h2>Availability</h2>
+            <table width="100%">
+                <tr>
+                    <td>1. Are you legally able to work in this country ?</td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        <input type="radio" name="Yes" value="Yes">Yes
+                        <input type="radio" name="No" value="No">No
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. What type of position are you seeking ? (check all that apply)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" value="Part time">Part time
+                        <input type="checkbox" value="Full time">full time
+                        <input type="checkbox" value="Seasonal">Seasonal
+                        <input type="checkbox" value="Temporary">Temporary
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Personal Statement">
+            <h2>Personal Statement</h2>
+            <table width="100%">
+                <tr>
+                    <td>1.Why do you deserve this job ? </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea rows="5" cols="80"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.Describe one rencent proejct.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea rows="5" cols="80"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="SUBMIT" class="button">
+                    </td>
+                    <td>
+                        <input type="reset" value="RESET" class="button">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>
